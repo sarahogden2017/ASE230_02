@@ -1,5 +1,11 @@
 <?php
 // INSERT DATA HERE.
+$team=[
+    [
+        'name'=>'Sarah Ogden',
+        'role'=>'team member',
+    ],
+]
 
 ?>
 <!DOCTYPE html>
@@ -32,6 +38,7 @@
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 			<h1 class="py-4 text-center">OUR AMAZING TEAM</h1>
 		    <header class="resume-header pt-4 pt-md-0">
+            <?php for($i=0;$i<count($team);$i++) { ?>
 			    <div class="row">
 				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
 				        <img class="picture" src="assets/images/profile.jpg" alt="">
@@ -39,8 +46,8 @@
 				    <div class="col">
 					    <div class="row p-4 justify-content-center justify-content-md-between">
 						    <div class="primary-info col-auto">
-							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Member 1 name</h1>
-							    <div class="title mb-3">Member 1 role</div>
+							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $team[$i]['name'] ?></h1>
+							    <div class="title mb-3"><?= $team[$i]['role'] ?></div>
 								<a href="#<?php /*LINK_TO_MEMBER_1_PAGE*/ ?>" class="btn btn-secondary">See full profile</a>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
@@ -49,6 +56,7 @@
 					    
 				    </div><!--//col-->
 			    </div><!--//row-->
+            <?php } ?>
 		    </header>
 		    
 		    <header class="resume-header mt-4 pt-4 pt-md-0">
