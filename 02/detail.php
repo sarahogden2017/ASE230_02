@@ -28,6 +28,17 @@ $team=[
 				'github'=>'github.com/kaylasaun',
 				'website'=>'kaylasaunders.com',
 		],
+			[
+				'name'=>'Milo Adams',
+				'role'=>'Team Member',
+				'image'=>'assets\images\IMG_0439.jpeg',
+				'bio'=>'Milo is team member who is creative and analytical. He is a CIT student.',
+				'job'=>'Data Analyst',
+				'phone'=>'859-307-2864',
+				'linkedin'=>'linkedin.com/in/marvelousmiloadams',
+				'github' =>'github.com/AdamsM9',
+				'website'=>'mywebsite.com',
+		],
 ]
 ?>
 <!DOCTYPE html>
