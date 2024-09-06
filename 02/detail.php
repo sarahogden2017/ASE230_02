@@ -40,6 +40,21 @@ $team=[
 				'linkedin'=>'linkedin.com/in/kayla-saunders',
 				'github'=>'github.com/kaylasaun',
 				'website'=>'kaylasaunders.com',
+				'work'=>[
+						[
+								'position'=>'Resident Assistant',
+								'company'=>'Northern Kentucky University',
+								'time'=>'2023 - Present',
+								'description'=>'A Resident Assistant (RA) is a student leadership position that allows me to work directly with first-year 
+										and upper-division students. I not only aim to ensure a safe and responsible environment, but also 
+	  									intentionally forge connections that construct an engaging housing experience.',
+								'technologies'=>[
+										'Microsoft Teams',
+										'Outlook',
+										'THD'
+								]
+						]
+				]
 		],
 			[
 				'name'=>'Milo Adams',
