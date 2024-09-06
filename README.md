@@ -8,3 +8,7 @@
 2. Add link to details page in for loop on index.php  
    - [ ] Done  
 3. Create details.php  
+4. Add profile pictures to assets  
+   - [ ] Sarah  
+   - [ ] Kayla  
+   - [ ] Milo  

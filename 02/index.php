@@ -6,7 +6,11 @@ $team=[
         'role'=>'team member',
         'image'=>'assets/images/sarah.jpg',
     ],
-]
+    [
+	'name'=>'Kayla Saunders',
+	'role'=>'team member',
+    ]
+];
 
 ?>
 <!DOCTYPE html>
