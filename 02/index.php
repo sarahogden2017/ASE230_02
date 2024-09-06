@@ -8,7 +8,7 @@ $team=[
     [
 	'name'=>'Kayla Saunders',
 	'role'=>'team member',
-    ],
+    ]
 ];
 
 ?>
