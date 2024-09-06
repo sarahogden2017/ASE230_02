@@ -14,7 +14,6 @@ $team=[
 				'linkedin'=>'linkedin.com/in/ogden100',
 				'github'=>'github.com/sarahogden2017',
 				'website'=>'sarahogden2017.github.io',
-<<<<<<< HEAD
 				'work'=>[
 						[
 								'position'=>'Student IT Support Specialist',
@@ -28,10 +27,8 @@ $team=[
 								]
 						]
 				]
-		]
-=======
 		],
-	        [
+	  [
 				'name'=>'Kayla Saunders',
 				'role'=>'Team Member',
 	 			'image'=>'assets/images/Kayla.JPG',
@@ -55,7 +52,6 @@ $team=[
 				'github' =>'github.com/AdamsM9',
 				'website'=>'mywebsite.com',
 		],
->>>>>>> 74231a1a81fb668293ff34522462170e24e073ed
 ]
 ?>
 <!DOCTYPE html>
