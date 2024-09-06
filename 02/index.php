@@ -9,7 +9,7 @@ $team=[
 	'name'=>'Kayla Saunders',
 	'role'=>'team member',
     ],
-]
+];
 
 ?>
 <!DOCTYPE html>
