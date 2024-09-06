@@ -9,6 +9,12 @@ $team=[
     [
 	'name'=>'Kayla Saunders',
 	'role'=>'team member',
+	'image'=>'assets/images/Kayla\'s Pic',
+    ]
+    [
+	'name'=>'Milo Adams',
+	'role'=>'team member',
+	'image'=>'assets\images\IMG_0439.jpeg'
     ]
 ];
 
