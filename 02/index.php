@@ -3,17 +3,17 @@
 $team=[
     [
         'name'=>'Sarah Ogden',
-        'role'=>'team member',
+        'role'=>'Team Member',
         'image'=>'assets/images/sarah.jpg',
     ],
     [
 	'name'=>'Kayla Saunders',
-	'role'=>'team member',
+	'role'=>'Team Member',
 	'image'=>'assets/images/Kayla.jpg',
     ],
     [
 	'name'=>'Milo Adams',
-	'role'=>'team member',
+	'role'=>'Team Member',
 	'image'=>'assets\images\IMG_0439.jpeg'
     ]
 ];
