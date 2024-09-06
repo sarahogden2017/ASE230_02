@@ -22,7 +22,7 @@ $team=[
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Our amazing team</title>
+    <title>Our Amazing Team</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
