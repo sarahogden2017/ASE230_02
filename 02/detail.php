@@ -57,7 +57,7 @@ $team=[
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title><?= $team[$i]['name'] ?></title>
+    <title><?= $team[$i]['name']'s Resume?></title>
     
     <!-- Meta -->
     <meta charset="utf-8">
