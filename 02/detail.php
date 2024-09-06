@@ -1,6 +1,11 @@
 <?php
 // INSERT DATA HERE.
-
+$team=[
+		[
+				'name'=>'Sarah Ogden',
+				'role'=>'team member',
+		],
+]
 ?>
 <!DOCTYPE html>
 <html lang="en"> 
