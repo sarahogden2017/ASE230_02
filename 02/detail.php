@@ -15,6 +15,19 @@ $team=[
 				'github'=>'github.com/sarahogden2017',
 				'website'=>'sarahogden2017.github.io',
 		],
+	        [
+				'name'=>'Kayla Saunders',
+				'role'=>'Team Member',
+	 			'image'=>'assets/images/Kayla.JPG',
+				'bio'=>'Kayla is a team member with a keen interest in safeguarding digital information and systems, aiming to apply technical 
+    					expertise to enhance security measures and protect against cyber threats.',
+				'job'=>'Resident Assistant',
+				'email'=>'saundersk1@nku.edu',
+				'phone'=>'502-487-7455',
+				'linkedin'=>'linkedin.com/in/kayla-saunders',
+				'github'=>'github.com/kaylasaun',
+				'website'=>'kaylasaunders.com',
+		],
 ]
 ?>
 <!DOCTYPE html>
