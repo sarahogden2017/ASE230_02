@@ -54,7 +54,7 @@ $team=[
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?= $team[$i]['name'] ?></h1>
 							    <div class="title mb-3"><?= $team[$i]['role'] ?></div>
-								<a href="#<?php /*LINK_TO_MEMBER_1_PAGE*/ ?>" class="btn btn-secondary">See full profile</a>
+								<a href="detail.php?index=<?= $i ?>" class="btn btn-secondary">See full profile</a>
 						    </div><!--//primary-info-->
 						    <div class="secondary-info col-auto mt-2">
 						    </div><!--//secondary-info-->
