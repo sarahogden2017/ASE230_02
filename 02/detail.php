@@ -14,6 +14,7 @@ $team=[
 				'linkedin'=>'linkedin.com/in/ogden100',
 				'github'=>'github.com/sarahogden2017',
 				'website'=>'sarahogden2017.github.io',
+<<<<<<< HEAD
 				'work'=>[
 						[
 								'position'=>'Student IT Support Specialist',
@@ -28,6 +29,33 @@ $team=[
 						]
 				]
 		]
+=======
+		],
+	        [
+				'name'=>'Kayla Saunders',
+				'role'=>'Team Member',
+	 			'image'=>'assets/images/Kayla.JPG',
+				'bio'=>'Kayla is a team member with a keen interest in safeguarding digital information and systems, aiming to apply technical 
+    					expertise to enhance security measures and protect against cyber threats.',
+				'job'=>'Resident Assistant',
+				'email'=>'saundersk1@nku.edu',
+				'phone'=>'502-487-7455',
+				'linkedin'=>'linkedin.com/in/kayla-saunders',
+				'github'=>'github.com/kaylasaun',
+				'website'=>'kaylasaunders.com',
+		],
+			[
+				'name'=>'Milo Adams',
+				'role'=>'Team Member',
+				'image'=>'assets\images\IMG_0439.jpeg',
+				'bio'=>'Milo is team member who is creative and analytical. He is a CIT student.',
+				'job'=>'Data Analyst',
+				'phone'=>'859-307-2864',
+				'linkedin'=>'linkedin.com/in/marvelousmiloadams',
+				'github' =>'github.com/AdamsM9',
+				'website'=>'mywebsite.com',
+		],
+>>>>>>> 74231a1a81fb668293ff34522462170e24e073ed
 ]
 ?>
 <!DOCTYPE html>
