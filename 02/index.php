@@ -5,6 +5,10 @@ $team=[
         'name'=>'Sarah Ogden',
         'role'=>'team member',
     ],
+    [
+	'name'=>'Kayla Saunders',
+	'role'=>'team member',
+    ],
 ]
 
 ?>
