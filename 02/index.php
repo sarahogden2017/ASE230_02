@@ -10,6 +10,11 @@ $team=[
 	'name'=>'Kayla Saunders',
 	'role'=>'team member',
     ]
+    [
+	'name'=>'Milo Adams',
+	'role'=>'team member',
+	'image'=>'assets\images\IMG_0439.jpeg'
+    ]
 ];
 
 ?>
