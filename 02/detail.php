@@ -67,12 +67,14 @@ $team=[
 				'github' =>'github.com/AdamsM9',
 				'website'=>'mywebsite.com',
 				'work'=>[
+					[
 						'position'=>'Teaching Assistant',
 						'company'=>'Northern Kentucky University',
 						'time'=>'Fall 24',
 						'description'=>'As a teaching assistant for the Introduction to Linux course, my main performance tasks were focused on completing office hours, responding timely to students, and improving course content for the next semester. Professor Taylor wanted me, along with the other TAs, to restructure the quizzes to rely more on automated grading than manual grading.',
 						'technologies'=>['Canvas Speed Grader','Outlook','Zoom'],
-			],
+					],
+				]
 		],
 ]
 ?>
@@ -370,4 +372,5 @@ $team=[
 
 </body>
 </html> 
+
 
