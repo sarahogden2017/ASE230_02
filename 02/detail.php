@@ -28,6 +28,7 @@ $team=[
                 ],
 		],
 	    [
+		
 				'name'=>'Kayla Saunders',
 				'role'=>'Team Member',
 	 			'image'=>'assets/images/Kayla.JPG',
@@ -52,11 +53,12 @@ $team=[
 										'THD'
 								        ]
                                 ],
+				],
 				'graded_skills'=>[ // Skill Name and Width for Progress bar
 		                        ['Python',80],
 		                        ['SQL',95],
 		                        ['Java',98],
-		                	],
+		        ],
 		                'other_skills'=> ['Code Review', 'Git', 'Unit Testing'],
 		                'education'=> [
 		                            'degree'=>'BS in Cybersecurity',
@@ -79,7 +81,7 @@ $team=[
 		                        'desc_text' => 'This is a web application that converts temperature values between Fahrenheit and Celsius degree units.',
 		                        'link' => "No link"
 		                ],
-                ]
+                
 		],
         	[
 				'name'=>'Milo Adams',
