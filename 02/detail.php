@@ -54,7 +54,7 @@ $team=[
                                 ],
                 ]
 		],
-        [
+        	[
 				'name'=>'Milo Adams',
 				'role'=>'Team Member',
 				'image'=>'assets\images\IMG_0439.jpeg',
@@ -72,34 +72,27 @@ $team=[
 								'description'=>'As a teaching assistant for the Introduction to Linux course, my main performance tasks were focused on completing office hours, 
 									responding timely to students, and improving course content for the next semester. Professor Taylor wanted me, along with the other TAs,
 									to restructure the quizzes to rely more on automated grading than manual grading.',
-								'technologies'=>[
-										'Canvas Speed Grader',
-										'Outlook',
-										'Zoom'
-								        ]
-                                ],
-                                [
-                                    'position'=>'Grading Assistant',
-                                    'company'=>'Northern Kentucky University',
-                                    'time'=>'Spring 2024',
-                                    'description'=>'As a grading assistant, I assisted Emily Taylor with grading student submissions for multiple courses, speeding up the time for students to receive grades and feedback.',
-                                    'technologies'=>[
-                                        'Canvas Speed Grader',
-                                        'Outlook',
-                                    ]
-                                ],
-                ],
+								'technologies'=>['Canvas Speed Grader','Outlook','Zoom']
+                                		],
+			                	[
+			                                	'position'=>'Grading Assistant',
+			                                   	'company'=>'Northern Kentucky University',
+			                                   	'time'=>'Spring 2024',
+			                                   	'description'=>'As a grading assistant, I assisted Emily Taylor with grading student submissions for multiple courses, speeding up the time for students to receive grades and feedback.',
+			                                    	'technologies'=>['Canvas Speed Grader','Outlook']
+			                        ],
+                			],
                 'graded_skills'=>[ // Skill Name and Width for Progress bar
                         ['MySQL',80],
                         ['Python',95],
                         ['HTML/CSS',98],
-                ],
+                	],
                 'other_skills'=> ['Technical Writing', 'Scripting', 'Teamwork'],
                 'education'=> [
                             'degree'=>'BS in Computer Information Technology',
                             'school'=>'Northern Kentucky University',
                             'time'=>'2021 - 2025',
-                ],
+                		],
                 'interests'=>['Rock climbing', 'Drawing', 'Animation'],
                 'awards'=> [
                     [ // Award Name and a description
