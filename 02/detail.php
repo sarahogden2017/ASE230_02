@@ -52,6 +52,33 @@ $team=[
 										'THD'
 								        ]
                                 ],
+				'graded_skills'=>[ // Skill Name and Width for Progress bar
+		                        ['Python',80],
+		                        ['SQL',95],
+		                        ['Java',98],
+		                	],
+		                'other_skills'=> ['Code Review', 'Git', 'Unit Testing'],
+		                'education'=> [
+		                            'degree'=>'BS in Cybersecurity',
+		                            'school'=>'Northern Kentucky University',
+		                            'time'=>'2020 - 2025',
+		                		],
+		                'interests'=>['Music', 'Baking', 'Learning'],
+		                'awards'=> [
+		                    [ // Award Name and a description
+		                    'award_name'=>'Dean\'s List',
+		                    'award_description'=>' Undergraduate students attempting at least 8 credit hours 
+		                    during the semester and earning a grade-point average of 3.60 to 3.99.'
+		                    ],
+		                ],
+		                'languages'=>[ // similar to skills, language and then level
+		                        ['English','Fluent (Native)'],
+		                ],
+		                'project_info'=>[
+		                        'project_name' => 'Convert Temperatures',
+		                        'desc_text' => 'This is a web application that converts temperature values between Fahrenheit and Celsius degree units.',
+		                        'link' => "No link"
+		                ],
                 ]
 		],
         	[
