@@ -82,34 +82,34 @@ $team=[
 			                                    	'technologies'=>['Canvas Speed Grader','Outlook']
 			                        ],
                 			],
-                'graded_skills'=>[ // Skill Name and Width for Progress bar
-                        ['MySQL',80],
-                        ['Python',95],
-                        ['HTML/CSS',98],
-                	],
-                'other_skills'=> ['Technical Writing', 'Scripting', 'Teamwork'],
-                'education'=> [
-                            'degree'=>'BS in Computer Information Technology',
-                            'school'=>'Northern Kentucky University',
-                            'time'=>'2021 - 2025',
-                		],
-                'interests'=>['Rock climbing', 'Drawing', 'Animation'],
-                'awards'=> [
-                    [ // Award Name and a description
-                    'award_name'=>'Dean\'s List',
-                    'award_description'=>' Undergraduate students attempting at least 8 credit hours 
-                    during the semester and earning a grade-point average of 3.60 to 3.99.'
-                    ],
-                ],
-                'languages'=>[ // similar to skills, language and then level
-                        ['English','Fluent (Native)'],
-                        ['Spanish', 'Novice']
-                ],
-                'project_info'=>[
-                        'project_name' => 'INF 286 - Group Project',
-                        'desc_text' => 'Tasked with creating a working website with at least 7 pages.',
-                        'link' => "No link"
-                ],
+				'graded_skills'=>[ // Skill Name and Width for Progress bar
+		                        ['MySQL',80],
+		                        ['Python',95],
+		                        ['HTML/CSS',98],
+		                	],
+		                'other_skills'=> ['Technical Writing', 'Scripting', 'Teamwork'],
+		                'education'=> [
+		                            'degree'=>'BS in Computer Information Technology',
+		                            'school'=>'Northern Kentucky University',
+		                            'time'=>'2021 - 2025',
+		                		],
+		                'interests'=>['Rock climbing', 'Drawing', 'Animation'],
+		                'awards'=> [
+		                    [ // Award Name and a description
+		                    'award_name'=>'Dean\'s List',
+		                    'award_description'=>' Undergraduate students attempting at least 8 credit hours 
+		                    during the semester and earning a grade-point average of 3.60 to 3.99.'
+		                    ],
+		                ],
+		                'languages'=>[ // similar to skills, language and then level
+		                        ['English','Fluent (Native)'],
+		                        ['Spanish', 'Novice']
+		                ],
+		                'project_info'=>[
+		                        'project_name' => 'INF 286 - Group Project',
+		                        'desc_text' => 'Tasked with creating a working website with at least 7 pages.',
+		                        'link' => "No link"
+		                ],
 		],
 ]
 ?>
