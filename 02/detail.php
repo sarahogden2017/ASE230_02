@@ -14,8 +14,7 @@ $team=[
 				'linkedin'=>'linkedin.com/in/ogden100',
 				'github'=>'github.com/sarahogden2017',
 				'website'=>'sarahogden2017.github.io',
-				'work'=>[
-						[
+				'work'=>[       [
 								'position'=>'Student IT Support Specialist',
 								'company'=>'Northern Kentucky University',
 								'time'=>'2024 - Present',
@@ -24,11 +23,11 @@ $team=[
 										'Windows',
 										'Powershell',
 										'Cisco Switches'
-								]
-						]
-				]
+                                        ]
+                                ],
+                ],
 		],
-	  [
+	    [
 				'name'=>'Kayla Saunders',
 				'role'=>'Team Member',
 	 			'image'=>'assets/images/Kayla.JPG',
@@ -40,8 +39,7 @@ $team=[
 				'linkedin'=>'linkedin.com/in/kayla-saunders',
 				'github'=>'github.com/kaylasaun',
 				'website'=>'kaylasaunders.com',
-				'work'=>[
-						[
+				'work'=>[       [
 								'position'=>'Resident Assistant',
 								'company'=>'Northern Kentucky University',
 								'time'=>'2023 - Present',
@@ -52,25 +50,25 @@ $team=[
 										'Microsoft Teams',
 										'Outlook',
 										'THD'
-								]
-						]
-				]
+								        ]
+                                ],
+                ]
 		],
-			[
+        [
 				'name'=>'Milo Adams',
 				'role'=>'Team Member',
 				'image'=>'assets\images\IMG_0439.jpeg',
 				'bio'=>'Milo is team member who is creative and analytical. He is a Computer Information Technology student interested in data collection and analyzation.',
 				'job'=>'Data Analyst',
+                'email'=>'adamsl9@nku.edu',
 				'phone'=>'859-307-2864',
 				'linkedin'=>'linkedin.com/in/marvelousmiloadams',
 				'github' =>'github.com/AdamsM9',
 				'website'=>'mywebsite.com',
-				'work'=>[
-						[
+				'work'=>[       [
 								'position'=>'Teaching Assistant',
 								'company'=>'Northern Kentucky University',
-								'time'=>'Fall 2023 - Spring 2024',
+								'time'=>'Fall 2023',
 								'description'=>'As a teaching assistant for the Introduction to Linux course, my main performance tasks were focused on completing office hours, 
 									responding timely to students, and improving course content for the next semester. Professor Taylor wanted me, along with the other TAs,
 									to restructure the quizzes to rely more on automated grading than manual grading.',
@@ -78,9 +76,47 @@ $team=[
 										'Canvas Speed Grader',
 										'Outlook',
 										'Zoom'
-								]
-						]
-				]
+								        ]
+                                ],
+                                [
+                                    'position'=>'Grading Assistant',
+                                    'company'=>'Northern Kentucky University',
+                                    'time'=>'Spring 2024',
+                                    'description'=>'As a grading assistant, I assisted Emily Taylor with grading student submissions for multiple courses, speeding up the time for students to receive grades and feedback.',
+                                    'technologies'=>[
+                                        'Canvas Speed Grader',
+                                        'Outlook',
+                                    ]
+                                ],
+                ],
+                'graded_skills'=>[ // Skill Name and Width for Progress bar
+                        ['MySQL',80],
+                        ['Python',95],
+                        ['HTML/CSS',98],
+                ],
+                'other_skills'=> ['Technical Writing', 'Scripting', 'Teamwork'],
+                'education'=> [
+                            'degree'=>'BS in Computer Information Technology',
+                            'school'=>'Northern Kentucky University',
+                            'time'=>'2021 - 2025',
+                ],
+                'interests'=>['Rock climbing', 'Drawing', 'Animation'],
+                'awards'=> [
+                    [ // Award Name and a description
+                    'award_name'=>'Dean\'s List',
+                    'award_description'=>' Undergraduate students attempting at least 8 credit hours 
+                    during the semester and earning a grade-point average of 3.60 to 3.99.'
+                    ],
+                ],
+                'languages'=>[ // similar to skills, language and then level
+                        ['English','Fluent (Native)'],
+                        ['Spanish', 'Novice']
+                ],
+                'project_info'=>[
+                        'project_name' => 'INF 286 - Group Project',
+                        'desc_text' => 'Tasked with creating a working website with at least 7 pages.',
+                        'link' => "No link"
+                ],
 		],
 ]
 ?>
@@ -154,74 +190,34 @@ $team=[
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
+                                    <?php for($w=0;$w<count($team[$i]['work']);$w++){ ?>
 								    <article class="resume-timeline-item position-relative pb-5">
-									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Lead Developer</h3>
-										        <div class="resume-company-name ms-auto">Startup Hub</div>
+										        <h3 class="resume-position-title font-weight-bold mb-1"><?= $team[$i]['work'][$w]['position']?></h3>
+										        <div class="resume-company-name ms-auto"><?= $team[$i]['work'][$w]['company']?></div>
 										    </div><!--//row-->
-										    <div class="resume-position-time">2023 - Present</div>
+										    <div class="resume-position-time"><?= $team[$i]['work'][$w]['time']?></div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
-										    <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-										    <ul>
-											    <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-											    <li>At vero eos et accusamus et iusto odio dignissimos.</li>
-											    <li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-											    <li>Maecenas tempus tellus eget.</li>
-										    </ul>
+										    <p><?= $team[$i]['work'][$w]['description']?></p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Angular</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Python</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">jQuery</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Webpack</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML/SASS</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PostgresSQL</span></li>
+                                                <?php
+                                                foreach($team[$i]['work'][$w]['technologies'] as $technologies)
+                                                    echo '<li class="list-inline-item"><span class="badge bg-secondary badge-pill">'.$technologies.'</span></li>';
+                                                ?>
 										    </ul>
 									    </div><!--//resume-timeline-item-desc-->
 
 								    </article><!--//resume-timeline-item-->
-								    
-								    <article class="resume-timeline-item position-relative pb-5">
-									    
-									    <div class="resume-timeline-item-header mb-2">
-										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Senior Software Developer</h3>
-										        <div class="resume-company-name ms-auto">Google</div>
-										    </div><!--//row-->
-										    <div class="resume-position-time">2019 - 2023</div>
-									    </div><!--//resume-timeline-item-header-->
-									    <div class="resume-timeline-item-desc">
-										    <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
-										    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
-										    <ul class="list-inline">
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">React</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Redux</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Django</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Webpack</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">HTML/SASS</span></li>
-											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">MySQL</span></li>
-										    </ul>
-									    </div><!--//resume-timeline-item-desc-->
-
-								    </article><!--//resume-timeline-item-->
-								    
-								    								    
-								    
+                                    <?php } ?>
 							    </div><!--//resume-timeline-->
-							    
-							    
-							    
-							    
-							    
+
+
 							    
 						    </div>
+
 					    </section><!--//projects-section-->
 				    </div>
 				    <div class="col-lg-3">
@@ -266,16 +262,11 @@ $team=[
 						        <div class="resume-skill-item">
 						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
 						            <ul class="list-inline">
-							            <li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Code Review</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Unit Testing</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Wireframing</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Balsamiq</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">WordPress</span></li>
-							            <li class="list-inline-item"><span class="badge badge-light">Shopify</span></li>
-						            </ul>
+                                        <?php
+                                        foreach($team[$i]['other_skills'] as $skills_list)
+                                            echo '<li class="list-inline-item"><span class="badge badge-light">'.$skills_list.'</span></li>';
+                                        ?>
+                                    </ul>
 						        </div><!--//resume-skill-item-->
 						    </div><!--resume-section-content-->
 					    </section><!--//skills-section-->
@@ -300,16 +291,13 @@ $team=[
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled resume-awards-list">
+                                    <?php for($a=0;$a<count($team[$i]['awards']);$a++){ ?>
 								    <li class="mb-2 ps-4 position-relative">
 								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Lorem</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
+                                        <div class="resume-award-name"><?=$team[$i]['awards'][$a]['award_name']?></div>
+                                            <div class="resume-award-desc"><?=$team[$i]['awards'][$a]['award_description']?></div>
 								    </li>
-								    <li class="mb-0 ps-4 position-relative">
-								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
-								        <div class="resume-award-name">Award Name Ipsum</div>
-								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
-								    </li>
+                                    <?php } ?>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
@@ -318,9 +306,10 @@ $team=[
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
-								    <li class="mb-1">Climbing</li>
-								    <li class="mb-1">Snowboarding</li>
-								    <li class="mb-1">Cooking</li>
+                                    <?php
+                                    foreach($team[$i]['interests'] as $interests)
+                                        echo '<li class="mb-1">'.$interests.'</li>';
+                                    ?>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
