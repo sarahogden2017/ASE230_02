@@ -3,146 +3,116 @@
 $i=$_GET['index'];
 
 $team=[
-		[
-				'name'=>'Sarah Ogden',
-				'role'=>'team member',
-				'image'=>'assets/images/sarah.jpg',
-				'bio'=>'Sarah is a team member who is passionate about coding and design. She is a quick learner and a great team player.',
-				'job'=>'Student IT Support Specialist',
-				'email'=>'ogdens2@nku.edu',
-				'phone'=>'614-593-5929',
-				'linkedin'=>'linkedin.com/in/ogden100',
-				'github'=>'github.com/sarahogden2017',
-				'website'=>'sarahogden2017.github.io',
-				'work'=>[       
-									[
-										'position'=>'Student IT Support Specialist',
-										'company'=>'Northern Kentucky University',
-										'time'=>'Aug 2024 - Present',
-										'description'=>'As a student worker for NKUs server team, I do a variety of tasks to help maintain and improve IT infastructure.',
-										'technologies'=>['Windows','Powershell','Cisco Switches']
-                  ],
-									[
-										'position'=>'Threat Operations Intern',
-										'company'=>'Kroger',
-										'time'=>'May 2024 - Aug 2024',
-										'description'=>'At my internship, I learned about detection engineering and developed a variety of scripts to help automate tasks.',
-										'technologies'=>['SIEM','SOAR','Python']
-                  ],
-									[
-										'position'=>'Student IT Support Specialist',
-										'company'=>'Northern Kentucky University',
-										'time'=>'Mar 2024 - May 2024',
-										'description'=>'As a student worker for Norse Tech Bar, I helped students with a variety of technical issues.',
-										'technologies'=>['Troubleshooting','Windows','WiFi']
-                  ],
-        ],
-				'graded_skills'=>[ // Skill Name and Width for Progress bar
+	[
+		'name'=>'Sarah Ogden',
+		'role'=>'team member',
+		'image'=>'assets/images/sarah.jpg',
+		'bio'=>'Sarah is a team member who is passionate about coding and design. She is a quick learner and a great team player.',
+		'job'=>'Student IT Support Specialist',
+		'email'=>'ogdens2@nku.edu',
+		'phone'=>'614-593-5929',
+		'linkedin'=>'linkedin.com/in/ogden100',
+		'github'=>'github.com/sarahogden2017',
+		'website'=>'sarahogden2017.github.io',
+		'work'=>[       
+							[
+								'position'=>'Student IT Support Specialist',
+								'company'=>'Northern Kentucky University',
+								'time'=>'Aug 2024 - Present',
+								'description'=>'As a student worker for NKUs server team, I do a variety of tasks to help maintain and improve IT infastructure.',
+								'technologies'=>['Windows','Powershell','Cisco Switches']
+              ],
+							[
+								'position'=>'Threat Operations Intern',
+								'company'=>'Kroger',
+								'time'=>'May 2024 - Aug 2024',
+								'description'=>'At my internship, I learned about detection engineering and developed a variety of scripts to help automate tasks.',
+								'technologies'=>['SIEM','SOAR','Python']
+              ],
+							[
+								'position'=>'Student IT Support Specialist',
+								'company'=>'Northern Kentucky University',
+								'time'=>'Mar 2024 - May 2024',
+								'description'=>'As a student worker for Norse Tech Bar, I helped students with a variety of technical issues.',
+								'technologies'=>['Troubleshooting','Windows','WiFi']
+              ],
+		],
+  	'graded_skills'=>[ // Skill Name and Width for Progress bar
 													['Linux',80],
 													['Python',95],
 													['Java',98],
-		    ],
-		    'other_skills'=> ['Windows', 'Scripting', 'Research'],
-		    'education'=> [
-		                		'degree'=>'BS in Cybersecurity and Data Science',
-		                		'school'=>'Northern Kentucky University',
-		                		'time'=>'2023 - 2027'
-		    ],
-		    'interests'=>['Hacking', 'Puzzles', 'Horses'],
-		    'awards'=> [
-		        [ // Award Name and a description
-		        'award_name'=>'Dean\'s List Fall 2023',
-		        'award_description'=>'4.0 GPA for the semester'
-		        ],
-            ['award_name'=>'Dean\'s List Spring 2024',
-		        'award_description'=>'4.0 GPA for the semester'
-		        ]
-		    ],
-		    'languages'=>[ // similar to skills, language and then level
-		            ['English','Fluent (Native)']
-		    ],
-		    'projects'=>[
-											[ 'project_name' => 'CoVCues',
-		            				'desc_text' => 'Building a dataset to assist with misinformation detection.',
-		            				'link' => "https://github.com/sarahogden2017/Covid-vCues",
-												'img' => 'assets/images/covcues.avif'
-											],
-											[ 'project_name' => 'US Women\'s Cyber Team',
-		            				'desc_text' => 'Competing in international cybersecurity competitions.',
-		            				'link' => "https://www.uscybergames.com/us-women-cyber-team",
-												'img' => 'assets/images/USWCT.webp'
-											],
-											[ 'project_name'=> 'ASE230 Group Project',
-											  'desc_text'=> 'Create this website',
-												'link'=> 'https://github.com/sarahogden2017/ASE230_02',
-												'img'=> 'assets/images/github.png'
-											]
-		    ],
 		],
-	  [
-			'name'=>'Kayla Saunders',
-			'role'=>'Team Member',
-	 		'image'=>'assets/images/Kayla.JPG',
-			'bio'=>'Kayla is a team member with a keen interest in safeguarding digital information and systems, aiming to apply technical expertise to enhance security measures and protect against cyber threats.',
-			'job'=>'Resident Assistant',
-			'email'=>'saundersk1@nku.edu',
-			'phone'=>'502-487-7455',
-			'linkedin'=>'linkedin.com/in/kayla-saunders',
-			'github'=>'github.com/kaylasaun',
-			'website'=>'kaylasaunders.com',
-			'work'=>[
-								[
-									'position'=>'Resident Assistant',
-									'company'=>'Northern Kentucky University',
-									'time'=>'2023 - Present',
-									'description'=>'A Resident Assistant (RA) is a student leadership position that allows me to work directly with first-year 
-																	and upper-division students. I not only aim to ensure a safe and responsible environment, but also 
-	  															intentionally forge connections that construct an engaging housing experience.',
-									'technologies'=>['Microsoft Teams','Outlook','THD']
-                ],
-      ]
+		'other_skills'=> ['Windows', 'Scripting', 'Research'],
+		'education'=> [
+		                'degree'=>'BS in Cybersecurity and Data Science',
+		                'school'=>'Northern Kentucky University',
+		                'time'=>'2023 - 2027'
 		],
-    [
-			'name'=>'Milo Adams',
-			'role'=>'Team Member',
-			'image'=>'assets\images\IMG_0439.jpeg',
-			'bio'=>'Milo is team member who is creative and analytical. He is a Computer Information Technology student interested in data collection and analyzation.',
-			'job'=>'Data Analyst',
-      'email'=>'adamsl9@nku.edu',
-			'phone'=>'859-307-2864',
-			'linkedin'=>'linkedin.com/in/marvelousmiloadams',
-			'github' =>'github.com/AdamsM9',
-			'website'=>'mywebsite.com',
-			'work'=>[       
-								[
-									'position'=>'Teaching Assistant',
-									'company'=>'Northern Kentucky University',
-									'time'=>'Fall 2023',
-									'description'=>'As a teaching assistant for the Introduction to Linux course, my main performance tasks were focused on completing office hours, 
-																	responding timely to students, and improving course content for the next semester. Professor Taylor wanted me, along with the other TAs,
-																	to restructure the quizzes to rely more on automated grading than manual grading.',
-									'technologies'=>['Canvas Speed Grader','Outlook','Zoom']
-                ],
-			          [
-			            'position'=>'Grading Assistant',
-			            'company'=>'Northern Kentucky University',
-			            'time'=>'Spring 2024',
-			            'description'=>'As a grading assistant, I assisted Emily Taylor with grading student submissions for multiple courses, speeding up the time for students to receive grades and feedback.',
-			            'technologies'=>['Canvas Speed Grader','Outlook']
-			          ],
-      ],
+		'interests'=>['Hacking', 'Puzzles', 'Horses'],
+		'awards'=> [
+		    [ // Award Name and a description
+		    'award_name'=>'Dean\'s List Fall 2023',
+		    'award_description'=>'4.0 GPA for the semester'
+		    ],
+        ['award_name'=>'Dean\'s List Spring 2024',
+		    'award_description'=>'4.0 GPA for the semester'
+		    ]
+		],
+		'languages'=>[ // similar to skills, language and then level
+		        ['English','Fluent (Native)']
+		],
+		'projects'=>[
+									[ 'project_name' => 'CoVCues',
+		            		'desc_text' => 'Building a dataset to assist with misinformation detection.',
+		            		'link' => "https://github.com/sarahogden2017/Covid-vCues",
+										'img' => 'assets/images/covcues.avif'
+									],
+									[ 'project_name' => 'US Women\'s Cyber Team',
+		            		'desc_text' => 'Competing in international cybersecurity competitions.',
+		            		'link' => "https://www.uscybergames.com/us-women-cyber-team",
+										'img' => 'assets/images/USWCT.webp'
+									],
+									[ 'project_name'=> 'ASE230 Group Project',
+										'desc_text'=> 'Create this website',
+										'link'=> 'https://github.com/sarahogden2017/ASE230_02',
+										'img'=> 'assets/images/github.png'
+									]
+		],
+	],
+	[
+		'name'=>'Kayla Saunders',
+		'role'=>'Team Member',
+	 	'image'=>'assets/images/Kayla.JPG',
+		'bio'=>'Kayla is a team member with a keen interest in safeguarding digital information and systems, aiming to apply technical expertise to enhance security measures and protect against cyber threats.',
+		'job'=>'Resident Assistant',
+		'email'=>'saundersk1@nku.edu',
+		'phone'=>'502-487-7455',
+		'linkedin'=>'linkedin.com/in/kayla-saunders',
+		'github'=>'github.com/kaylasaun',
+		'website'=>'kaylasaunders.com',
+		'work'=>[
+							[
+								'position'=>'Resident Assistant',
+								'company'=>'Northern Kentucky University',
+								'time'=>'2023 - Present',
+								'description'=>'A Resident Assistant (RA) is a student leadership position that allows me to work directly with first-year 
+																and upper-division students. I not only aim to ensure a safe and responsible environment, but also 
+	  														intentionally forge connections that construct an engaging housing experience.',
+								'technologies'=>['Microsoft Teams','Outlook','THD']
+              ],
+			],
 			'graded_skills'=>[ // Skill Name and Width for Progress bar
-		                      ['MySQL',80],
-		                      ['Python',95],
-		                      ['HTML/CSS',98],
+		                      ['Python',80],
+		                      ['SQL',95],
+		                      ['Java',98],
 		  ],
-		  'other_skills'=> ['Technical Writing', 'Scripting', 'Teamwork'],
+		  'other_skills'=> ['Code Review', 'Git', 'Unit Testing'],
 		  'education'=> [
-		              'degree'=>'BS in Computer Information Technology',
+		              'degree'=>'BS in Cybersecurity',
 		              'school'=>'Northern Kentucky University',
-		              'time'=>'2021 - 2025'
-		  ],
-		  'interests'=>['Rock climbing', 'Drawing', 'Animation'],
+		              'time'=>'2020 - 2025',
+		      ],
+		  'interests'=>['Music', 'Baking', 'Learning'],
 		  'awards'=> [
 		      [ // Award Name and a description
 		      'award_name'=>'Dean\'s List',
@@ -152,16 +122,76 @@ $team=[
 		  ],
 		  'languages'=>[ // similar to skills, language and then level
 		          ['English','Fluent (Native)'],
-		          ['Spanish', 'Novice']
 		  ],
-		  'projects'=>[ 
+		  'projects'=>[
 										[
-		          				'project_name' => 'INF 286 - Group Project',
-		          				'desc_text' => 'Tasked with creating a working website with at least 7 pages.',
-		          				'link' => "No link",
+		      						'project_name' => 'Convert Temperatures',
+		      						'desc_text' => 'This is a web application that converts temperature values between Fahrenheit and Celsius degree units.',
+		      						'link' => "No link",
 											'img' => 'assets/images/github.png'
 										]
-		  ]
+		  ],         
+	],
+  [
+		'name'=>'Milo Adams',
+		'role'=>'Team Member',
+		'image'=>'assets\images\IMG_0439.jpeg',
+		'bio'=>'Milo is team member who is creative and analytical. He is a Computer Information Technology student interested in data collection and analyzation.',
+		'job'=>'Data Analyst',
+    'email'=>'adamsl9@nku.edu',
+		'phone'=>'859-307-2864',
+		'linkedin'=>'linkedin.com/in/marvelousmiloadams',
+		'github' =>'github.com/AdamsM9',
+		'website'=>'mywebsite.com',
+		'work'=>[       
+							[
+								'position'=>'Teaching Assistant',
+								'company'=>'Northern Kentucky University',
+								'time'=>'Fall 2023',
+								'description'=>'As a teaching assistant for the Introduction to Linux course, my main performance tasks were focused on completing office hours, 
+																responding timely to students, and improving course content for the next semester. Professor Taylor wanted me, along with the other TAs,
+																to restructure the quizzes to rely more on automated grading than manual grading.',
+								'technologies'=>['Canvas Speed Grader','Outlook','Zoom']
+              ],
+			        [
+			          'position'=>'Grading Assistant',
+			          'company'=>'Northern Kentucky University',
+			          'time'=>'Spring 2024',
+			          'description'=>'As a grading assistant, I assisted Emily Taylor with grading student submissions for multiple courses, speeding up the time for students to receive grades and feedback.',
+			          'technologies'=>['Canvas Speed Grader','Outlook']
+			        ],
+    ],
+		'graded_skills'=>[ // Skill Name and Width for Progress bar
+		                    ['MySQL',80],
+		                    ['Python',95],
+		                    ['HTML/CSS',98],
+		],
+		'other_skills'=> ['Technical Writing', 'Scripting', 'Teamwork'],
+		'education'=> [
+		            'degree'=>'BS in Computer Information Technology',
+		            'school'=>'Northern Kentucky University',
+		            'time'=>'2021 - 2025'
+		],
+		'interests'=>['Rock climbing', 'Drawing', 'Animation'],
+		'awards'=> [
+		    [ // Award Name and a description
+		    'award_name'=>'Dean\'s List',
+		    'award_description'=>' Undergraduate students attempting at least 8 credit hours 
+		    during the semester and earning a grade-point average of 3.60 to 3.99.'
+		    ],
+		],
+		'languages'=>[ // similar to skills, language and then level
+		        ['English','Fluent (Native)'],
+		        ['Spanish', 'Novice']
+		],
+		'projects'=>[ 
+									[
+		          			'project_name' => 'INF 286 - Group Project',
+		          			'desc_text' => 'Tasked with creating a working website with at least 7 pages.',
+		          			'link' => "No link",
+										'img' => 'assets/images/github.png'
+									]
+		]
 	]
 ]
 ?>
